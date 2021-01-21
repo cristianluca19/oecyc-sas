@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background: #0e1410; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #68706b 1%, #1c2b5a 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#68706b), color-stop(100%,#1c2b5a)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #68706b 1%,#1c2b5a 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #68706b 1%,#1c2b5a 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #68706b 1%,#1c2b5a 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #68706b 1%,#1c2b5a 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68706b', endColorstr='#1c2b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  height:calc(100vh);
+  width:100%;
+}
